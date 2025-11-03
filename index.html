@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first code</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav-list">
+          <a href="#home"></a>
+          <li class="nav-list-item"><a href="#home">Home</a></li>
+          <li class="nav-list-item"><a href="#about">About</a></li>
+          <li class="nav-list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <h1 class="title">Hi, my name is Albina!</h1>
+        <h2 class="under-title">Welcome to my website.</h2>
+      </section>
+
+      <section id="about" class="about-section">
+        <h2 class="section-title">About me.</h2>
+        <div class="about-text">
+          I'm 36 years old and originally from Russia. I live in Tønsberg and
+          really enjoy it here. I have a background as an HSE specialist in my
+          home country, but after moving to Norway, I decided to try something
+          new. I chose to study programming because it's something I truly
+          enjoy. Coding gives me a sense of accomplishment and joy. Currently, I
+          continue to code in my free time, but I'm now looking for a job where
+          I can apply my knowledge and keep growing professionally.
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact me</h2>
+        <form
+          action="mailto:dyakovabina@gmail.com"
+          method="post"
+          enctype="text/plain"
+          class="contact-form"
+        >
+          <div class="form-input">
+            <label for="name">Enter your name </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-input">
+            <label for="email">Enter your email </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-input">
+            <input type="submit" value="Send email" class="submit-btn"/>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
