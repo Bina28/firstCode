@@ -9,68 +9,72 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+/* NAV */
 .nav {
-  height: 54px;
-  padding: 24px;
+  height: 48px;
+  padding: 20px;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  list-style-type: none;
+  list-style: none;
+  gap: 24px;
 }
 
-.nav-list-item a {
-  font-size: 24px;
-  padding-right: 24px;
-}
-
-.nav-list-item a {
+.nav-list-item:link,
+.nav-list-item:visited {
+  font-size: 18px;
   text-decoration: none;
   color: #b81f1f;
+  transition: all 0.3s;
+  display: inline-block;
 }
 
-.nav-list-item:hover {
+.nav-list-item:hover,
+.nav-list-item:active {
   color: #6e1313;
   font-weight: 600;
 }
 
+/* Hero section*/
 .hero-section {
-  margin: 42px 0 24px 48px;
-  height: 28vh;
+  padding: 42px 0 24px 48px;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   gap: 12px;
+  height: 35vh;
 }
 
 .title {
   color: #bf3535;
-  font-size: 52px;
+  font-size: 38px;
   font-weight: 700;
 }
 
 .under-title {
-  font-size: 18px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #d47979;
 }
 
 .section-title {
   color: #bf3535;
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 24px;
 }
 
+/* About section */
 .about-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 35vh;
+  padding: 50px 0;
 }
 
 .about-text {
@@ -78,17 +82,18 @@ body {
   font-size: 18px;
   width: 700px;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 10px;
   background: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   line-height: 1.6;
 }
 
+/* contact section */
 .contact-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 35vh;
+  padding: 50px 0;
 }
 
 .contact-form {
@@ -100,16 +105,22 @@ body {
   background-color: white;
   width: 500px;
   padding: 24px;
+  border-radius: 10px;
 }
 
-input {
+.form-input input {
   font-family: inherit;
-  font-size: 24px;
-  border: 1px solid  #bf3535;
+  font-size: 14px;
+  border: 1px solid #ecc2c2;
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px;
 }
 
-label {
-  font-size: 20px;
+.form-input label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
 }
 
 .submit-btn {
@@ -117,8 +128,9 @@ label {
   color: #bf3535;
   border: 1px solid #bf3535;
   border-radius: 8px;
-  padding: 8px 8px;
-  font-size: 18px;
-  display: flex;
-  justify-self: end;
+  padding: 8px;
+  font-size: 14px;
+  align-self: end;
+  cursor: pointer;
+  margin: 4px;
 }
