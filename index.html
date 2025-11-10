@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <script defer src="projects.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2e080e6b7a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -21,19 +26,19 @@
       <nav class="nav">
         <ul class="nav-list">
           <li><a class="nav-list-item" href="#home">Home</a></li>
-          <li class="nav-list-item">
+          <li>
             <a class="nav-list-item" href="#about">About</a>
           </li>
-          <li class="nav-list-item">
+          <li>
             <a class="nav-list-item" href="#projects">Projects</a>
           </li>
-          <li class="nav-list-item">
+          <li>
             <a class="nav-list-item" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-
+    <a href="" class=""></a>
     <main>
       <section id="home" class="hero-section">
         <div class="hero-content">
@@ -41,8 +46,8 @@
           <h2 class="under-title">Welcome to my website.</h2>
           <a href="#contact" class="btn link--contact">Contact Me</a>
         </div>
-        <div class="hero-img-container"> 
-          <img src="./images/lla.png" alt="" class="hero-img"/>
+        <div class="hero-img-container">
+          <img src="./images/lla.png" alt="" class="hero-img" />
         </div>
       </section>
 
@@ -63,127 +68,7 @@
       <section id="projects" class="projects">
         <div class="project-container">
           <h1 class="section-title">Projects.</h1>
-          <div class="section-grid">
-            <div class="project-card">
-              <img
-                src="./images/lexi.png"
-                alt="Lexi project image"
-                class="project-img"
-              />
-              <div class="project-content">
-                <h4 class="project-name">Lexi</h4>
-                <p class="project-description">
-                  A language learning app that helps users study with
-                  flashcards.
-                </p>
-                <ul class="tech-list">
-                  <li>React</li>
-                  <li>C#</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <img
-                src="./images/studybuddy.png"
-                alt="Study Buddy project image"
-                class="project-img"
-              />
-              <div class="project-content">
-                <h4 class="project-name">Study Buddy</h4>
-                <p class="project-description">
-                  An app designed to help students organize and manage study
-                  meetings.
-                </p>
-                <ul class="tech-list">
-                  <li>React</li>
-                  <li>TypeScript</li>
-                  <li>MUI</li>
-                  <li>C#</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <img
-                src="./images/omnifood.png"
-                alt="Omnifood project image"
-                class="project-img"
-              />
-              <div class="project-content">
-                <h4 class="project-name">Omnifood</h4>
-                <p class="project-description">
-                  A playful food delivery concept app created for learning and
-                  UI practice.
-                </p>
-                <ul class="tech-list">
-                  <li>CSS</li>
-                  <li>HTML</li>
-                  <li>JavaScript</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <img
-                src="./images/mixi-pixie.png"
-                alt="MixiPixie project image"
-                class="project-img"
-              />
-              <div class="project-content">
-                <h4 class="project-name">MixiePixie</h4>
-                <p class="project-description">
-                  A cocktail generator app that suggests random drink recipes.
-                </p>
-                <ul class="tech-list">
-                  <li>CSS</li>
-                  <li>HTML</li>
-                  <li>JavaScript</li>
-                  <li>Firebase</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <img
-                src="./images/admin-dashboard.png"
-                alt="Admin Dashboard project image"
-                class="project-img"
-              />
-              <div class="project-content">
-                <h4 class="project-name">Admin Dashboard</h4>
-                <p class="project-description">
-                  A simple dashboard app for managing users and system data.
-                </p>
-                <ul class="tech-list">
-                  <li>Tailwind</li>
-                  <li>TypeScript</li>
-                  <li>C#</li>
-                  <li>PostgreSQL</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <img
-                src="./images/portfolio.png"
-                alt="Portfolio website  image"
-                class="project-img"
-              />
-              <div class="project-content">
-                <h4 class="project-name">Portfolio</h4>
-                <p class="project-description">
-                  My personal portfolio website showcasing my projects and
-                  skills.
-                </p>
-                <ul class="tech-list">
-                  <li>React</li>
-                  <li>CSS</li>
-                  <li>TypeScript</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <div class="section-grid" id="projectGrid"></div>
         </div>
       </section>
 

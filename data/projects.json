@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Lexi",
+    "description": "A language learning app that helps users study with flashcards.",
+    "tech": ["React", "C#"],
+    "img": "./images/lexi.png",
+    "github": "https://github.com/Bina28/LanguageLearningApp"
+  },
+  {
+    "name": "Study Buddy",
+    "description": "An app designed to help students organize and manage study meetings.",
+    "tech": ["React", "TypeScript", "MUI", "C#"],
+    "img": "./images/studybuddy.png",
+    "github": "https://github.com/Bina28/StudyBuddy"
+  },
+  {
+    "name": "Omnifood",
+    "description": "A playful food delivery concept app created for learning and UI practice.",
+    "tech": ["CSS", "HTML", "JavaScript"],
+    "img": "./images/omnifood.png",
+    "github": "https://github.com/Bina28/omnifood"
+  },
+  {
+    "name": "MixiePixie",
+    "description": "A cocktail generator app that suggests random drink recipes.",
+    "tech": ["CSS", "HTML", "JavaScript", "Firebase"],
+    "img": "./images/mixi-pixie.png",
+    "github": "https://github.com/Bina28/mixiepixie.github.io"
+  },
+  {
+    "name": "Admin Dashboard",
+    "description": "A simple dashboard app for managing users and system data.",
+    "tech": ["Tailwind", "TypeScript", "C#", "PostgreSQL"],
+    "img": "./images/admin-dashboard.png",
+    "github": "https://github.com/Bina28/DashboardApp"
+  },
+  {
+    "name": "Portfolio",
+    "description": "My personal portfolio website showcasing my projects and skills.",
+    "tech": ["React", "CSS", "TypeScript"],
+    "img": "./images/portfolio.png",
+    "github": "https://github.com/Bina28/Portfolio_react"
+  }
+]

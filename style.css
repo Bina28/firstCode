@@ -18,7 +18,6 @@
 body {
   background-color: var(--color-bg);
   font-family: "Mulish", sans-serif;
-  padding-bottom: 70px;
 }
 
 /* NAV */
@@ -33,7 +32,6 @@ body {
   width: 100%;
   height: 70px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .logo-img {
@@ -175,12 +173,31 @@ body {
 .project-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 22px;
 }
 
 .project-img {
   width: 100%;
   height: 200px;
+}
+
+.project-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.github-link:link,
+.github-link:visited {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.github-link:hover,
+.github-link:active {
+  color: var(--color-primary-hover);
+  transform: translateY(-1px) translateX(2px);
+  scale: 1.1;
 }
 
 .project-name {
@@ -200,7 +217,6 @@ body {
 .tech-list {
   list-style: none;
   display: flex;
-  flex-direction: row;
   gap: 10px;
   color: var(--color-second-text);
   font-size: 10px;
@@ -254,13 +270,13 @@ body {
   border: 1px solid var(--color-primary);
   align-self: end;
   margin: 4px;
+  transition: all 0.3s ease-in;
 }
 
 .submit--btn:hover {
   background-color: var(--color-primary-hover);
   color: var(--color-white);
   border: 1px solid var(--color-primary-hover);
-  transform: translateY(-5px);
 }
 
 /* Footer */
@@ -283,6 +299,6 @@ body {
   padding: 10px 12px;
   font-size: 16px;
   cursor: pointer;
-  transition: all 0.7s ease;
+  transition: all 0.7s ease-in-out;
   font-family: inherit;
 }
